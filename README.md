@@ -4,7 +4,7 @@ This is the code we used for the simulations in the paper "Multilevel latent cla
 
 ## Usage
 To run the simulations launch the .R files, which recalls a C++ program. Be sure to have installed .R, and the R packages Rcpp, RcppEigen and
-RcppArmadillo. The two versions of the estiamtion algorithm are available: Hierarchical and Cross-Classified. 
+RcppArmadillo. The two versions of the estiamtion algorithm are available: Hierarchical_CUB and Cross-Classified_CUB. 
 
 ## Citing us
 

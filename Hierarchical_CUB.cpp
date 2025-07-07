@@ -60,7 +60,7 @@ int main2(vector<vector<int>> yy){
     std::vector< std::vector<int> > student_vector;
 
 
-    int _L,_R,_Q,_iter,_iter0,_iter3,_starting,_burn,_thinn;
+    int _L,_R,_Q,_iter,_iter2,_starting;
     _L=3;
     _R=2;
     _iter=100;
@@ -93,7 +93,7 @@ int main2(vector<vector<int>> yy){
         }
     }
 
-    
+    vector<int> _indvecqk(_n);
     int xxx = 0;
     for (int j = 0; j < _n; j++) {
         if (y0[j] == _vettoreqk[xxx]) {
@@ -125,7 +125,6 @@ int main2(vector<vector<int>> yy){
     int _I = _G-1;
     vector<int> vC(_I);
 
-    vector<int> vC(_I);
     int ma;
     for(int i=0;i<_I;i++){
         ma = y(0,i+2);

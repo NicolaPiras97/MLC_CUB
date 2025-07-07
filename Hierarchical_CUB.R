@@ -2,7 +2,7 @@
 library(Rcpp)
 library(RcppEigen)
 library(RcppArmadillo)
-Rcpp::sourceCpp("MLC_CUB.cpp") 
+Rcpp::sourceCpp("Hierarchical_CUB.cpp") 
 
 L <- 3
 H <- 2

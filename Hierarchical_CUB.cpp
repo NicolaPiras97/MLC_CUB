@@ -66,8 +66,8 @@ int main2(vector<vector<int>> yy){
     _iter=100;
     _iter2=200;
     _starting=16;
-    double eps=0.000000000000001;
-    double eps2=0.0000000000000000000000000000000000000000001;
+    double eps=0.000000001;
+    double eps2=0.0000000001;
     
     
     _Q = y(0, 1);
